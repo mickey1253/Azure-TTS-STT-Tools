@@ -15,8 +15,8 @@ public class Head {
     public short blockAlign;      //2 byte , 数据块对齐单位(每个采样需要的字节数)
     public short bitsPerSample;   //2 byte , 每个采样需要的bit数
 
-    public int data_id;           //4 byte , 字符data
-    public int data_size;         //4 byte , 数据长度
+    public int data_id;           // 4 byte , 字符data
+    public int data_size;         // 4 byte , 数据长度
 
     public int getRiff_id() {
         return riff_id;
